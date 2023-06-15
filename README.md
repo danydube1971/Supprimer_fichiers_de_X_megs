@@ -21,5 +21,11 @@ le script affiche un message pour informer l'utilisateur qu'aucun fichier n'a é
 En résumé, ce script Bash permet de trouver et de déplacer les fichiers qui dépassent une certaine limite de taille dans la corbeille, 
 avec une confirmation de l'utilisateur avant la suppression.
 
+-----------------
+**Comment exécuter le script**
+
+Placer le script dans le même répertoire que les fichiers à supprimer.
+
+Ouvrir un terminal puis exécuter le script via la commande suivante: **python3 "Effacer_tout_les_fichiers_de_plus_de_X_megs dans la corbeille.sh"**
 
 
