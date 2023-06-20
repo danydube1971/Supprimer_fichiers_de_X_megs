@@ -9,7 +9,7 @@ Voici ce que fait chaque ligne du script :
 
 1. La première ligne déclare que le script doit être exécuté dans l'interpréteur de commande Bash.
 2. La deuxième ligne demande à l'utilisateur d'entrer une limite de taille de fichier en mégaoctets, puis stocke la réponse dans la variable "LIMIT".
-3. La troisième ligne utilise la commande "find" pour trouver tous les fichiers de plus de $LIMIT mégaoctets dans le répertoire courant 
+3. La troisième ligne utilise la commande "find" pour trouver tous les fichiers de plus de **$LIMIT** mégaoctets dans le répertoire courant 
 et les stocke dans la variable "files".
 4. La quatrième ligne utilise une structure de contrôle "if" pour vérifier si des fichiers ont été trouvés. 
 Si c'est le cas, le script demande à l'utilisateur de confirmer s'il veut déplacer ces fichiers dans la corbeille.
